@@ -1,0 +1,42 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Cantidad</th>
+            <th>Compras</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (product of products; track product.nombre) {
+            <tr [ngClass]="{'table-success': product.clearance}">
+            <td><img class="img-thumbnail" [src]="product.image" [alt]="product.nombre"></td>
+            <td>{{product.nombre}}</td>
+            <td>{{product.tipo}}</td>
+            <td>{{product.precio| currency:'USD':true:'1.2-2'}}</td>
+            @if (product.stock <=0) { <td><span class="fas fa-times" aria-hidden="true"></span></td>
+                }
+                @if (product.stock >0) {
+                <td><span class="fas fa-check" aria-hidden="true"></span></td>
+                <td class="comprar">
+                    <app-input-integer [(quantity)]="product.quantity" [max]="product.stock"
+                        (maxReached)="maxReached($event)">
+                    </app-input-integer>
+                </td>
+                <td>
+                    <button class="btn btn-dark" (click)="addToCart(product)">Comprar</button>
+                </td>
+                }
+
+        </tr>
+        } @empty {
+        <tr>
+            <td colspan="4">No hay productos para mostrar.</td>
+        </tr>
+        }
+
+    </tbody>
+</table>
