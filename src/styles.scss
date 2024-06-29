@@ -3,6 +3,9 @@
 app-input-integer{
     justify-content: center;
     display: flex;
+    padding: 2%;
+    height: 100%;
+    margin: 3%;
 }
 .comprar{
     text-align: left;
@@ -10,4 +13,7 @@ app-input-integer{
 }
 input{
     width: 30px;
+}
+td{
+    vertical-align: middle;
 }

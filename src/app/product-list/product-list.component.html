@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         @for (product of products; track product.nombre) {
-            <tr [ngClass]="{'table-success': product.clearance}">
+        <tr [ngClass]="{'table-success': product.clearance}">
             <td><img class="img-thumbnail" [src]="product.image" [alt]="product.nombre"></td>
             <td>{{product.nombre}}</td>
             <td>{{product.tipo}}</td>
