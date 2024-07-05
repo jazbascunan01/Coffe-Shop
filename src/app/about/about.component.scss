@@ -2,11 +2,43 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    color: #ffffff;
+    margin: 3%;
+}
+
+h4 {
+    color: #f3c9aa;
+}
+
 p {
     color: #e7ecf1;
 }
-img{
+
+img {
     margin: 2%;
     border-radius: 10%;
     border: solid white 5px;
+}
+
+.primerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo {
+    height: 200px;
+    width: 300px;
+}
+
+.logo {
+    color: #f7f1e1;
+}
+
+.galeria {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
