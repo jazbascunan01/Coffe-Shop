@@ -91,6 +91,8 @@ Este componente muestra los productos que el usuario ha agregado a su carrito de
 
 ## Conclusión
 
-Este proyecto representa una aplicación web funcional para una cafetería, mostrando una implementación de Angular para gestionar la vista de productos y el carrito de compras, así como Bootstrap para el diseño responsivo y atractivo de la interfaz de usuario. 
+Este proyecto representa una aplicación web funcional para una cafetería, mostrando una implementación de Angular para gestionar la vista de productos y el carrito de compras, así como Bootstrap para el diseño responsivo y atractivo de la interfaz de usuario. A lo largo del desarrollo de este proyecto, he tenido la oportunidad de profundizar en diversas tecnologías web modernas, mejorar mis habilidades en Angular y TypeScript, y aprender a integrar Bootstrap de manera efectiva para mejorar la experiencia del usuario.
+
+El proyecto no solo me permitió aplicar los conocimientos adquiridos durante el seminario, sino que también me brindó la oportunidad de enfrentar desafíos reales en el desarrollo de aplicaciones web. Desde la gestión de estados con Angular hasta la personalización de componentes con Bootstrap, cada aspecto del proyecto ha contribuido significativamente a mi crecimiento profesional.
 
 ---
