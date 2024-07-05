@@ -79,6 +79,7 @@ Este componente muestra los productos que el usuario ha agregado a su carrito de
 **Institución:** UNICEN FCEXA Sede Quequén  
 **Correo Electrónico:** jazbascunan01@gmail.com  
 **Fecha:** 2024  
+**Stackblitz:** https://stackblitz.com/~/github.com/jazbascunan01/Coffe-Shop  
 
 ## Conclusión
 
