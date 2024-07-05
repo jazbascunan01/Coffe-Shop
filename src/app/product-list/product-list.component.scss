@@ -1,7 +1,42 @@
 img{
-    width: 50px;
+    width: 150px;
+}
+.comprar{
+    height: 75px;
 }
 .clearance{
     border: 2px solid green;
     background-color: lightgreen !important;
+}
+.transparent-table {
+    background-color: rgba(165, 42, 42, 0.5) !important; /* Marrón con 50% de opacidad */
+    margin: 2%;
+    color: white!important;
+}
+
+.transparent-table th,
+.transparent-table td {
+    background-color: rgba(165, 42, 42, 0.5) !important; /* Marrón con 50% de opacidad */
+    color: white!important;
+}
+
+
+.transparent-table {
+    width: 100%;
+    display: table;
+}
+
+.transparent-table thead, .transparent-table tbody {
+    display: table-row-group;
+}
+
+.transparent-table tr {
+    display: table-row;
+}
+
+.transparent-table th, .transparent-table td {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(165, 42, 42, 0.5) !important; /* Marrón con 50% de opacidad */
+    padding: 10px;
 }
