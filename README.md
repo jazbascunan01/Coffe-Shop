@@ -10,7 +10,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto es un trabajo práctico final realizado para un seminario de Angular. Consiste en la creación de una aplicación web para una cafetería, Coffee Shop, utilizando Angular y Bootstrap. La aplicación permite a los usuarios navegar por los productos, ver detalles, agregar productos al carrito de compras y realizar compras.
+Este proyecto es un trabajo práctico final realizado para un seminario de Angular. Consiste en la creación de una aplicación web para una cafetería, Coffee Shop, utilizando Angular. La aplicación permite a los usuarios navegar por los productos, ver detalles, agregar productos al carrito de compras y realizar compras.
 
 ## Tecnologías Utilizadas
 
@@ -57,7 +57,7 @@ git clone https://github.com/jazbascunan01/Coffe-Shop
 ng serve
 ```
 
-4. **Abrir la aplicación**
+3. **Abrir la aplicación**
 
 Visita `http://localhost:4200` en tu navegador web.
 
