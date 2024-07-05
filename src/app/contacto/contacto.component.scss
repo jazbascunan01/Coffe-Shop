@@ -1,0 +1,29 @@
+h1{
+    color:antiquewhite;
+    text-align: center;
+}
+p{
+    color:white;
+}
+h3{
+    color: antiquewhite;
+}
+.mitad{
+    margin: 5%;
+    width: 40%;
+}
+label{
+    color:white;
+}
+form{
+    background-color: rgba(165, 42, 42, 0.5);
+    padding: 4%;
+    color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    margin:2%;
+}
